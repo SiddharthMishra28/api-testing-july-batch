@@ -32,6 +32,5 @@ public class SerializationAndDeserialization {
 					.extract().response();
 		System.out.println(res.asPrettyString());
 		System.out.println(res.statusCode());
-					
 	}
 }
