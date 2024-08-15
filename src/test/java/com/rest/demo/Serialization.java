@@ -9,7 +9,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class SerializationAndDeserialization {
+public class Serialization {
 
 	public static void main(String[] args) throws JsonProcessingException {
 //		Phone iphone = new Phone();
