@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.testcases.JsonPathExample">
+      <class name="com.api.test.tests.LoginTest">
         <methods>
-          <include name="jsonPathExample2"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="register_new_user_test" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.rest.testcases.JsonPathExample -->
+      </class> <!-- com.api.test.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
